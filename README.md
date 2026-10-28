@@ -1,6 +1,6 @@
 # Study Track
 
-Study Track is a simple, beginner-friendly study planner for secondary and high school students. It is built with plain HTML, CSS, and JavaScript—no frameworks, package installation, or build step required.
+Study Track is a simple, beginner-friendly study planner for secondary or high school students. It is built with plain HTML, CSS, and JavaScript—no frameworks, package installation, or build step required.
 
 ## Features
 
