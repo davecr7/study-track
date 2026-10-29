@@ -546,3 +546,48 @@ footer {
     animation-iteration-count: 1 !important;
   }
 }
+.welcome-popup {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  background: #111827;
+  color: white;
+  padding: 20px 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 0 20px #3b82f6;
+  z-index: 9999;
+
+  animation: welcome 4s ease forwards;
+}
+
+.welcome-popup h2 {
+  font-size: 32px;
+  margin: 0 0 8px;
+  animation: wave 0.7s infinite alternate;
+}
+
+.welcome-popup p {
+  margin: 0;
+  font-size: 16px;
+}
+
+@keyframes welcome {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  15%, 70% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes wave {
+  from { transform: rotate(-5deg); }
+  to { transform: rotate(5deg); }
+}

@@ -209,3 +209,10 @@ function loadTasks() {
 }
 
 loadTasks();
+window.addEventListener("load", function () {
+  const welcome = document.getElementById("welcome-popup");
+
+  setTimeout(function () {
+    welcome.remove();
+  }, 4000);
+});
